@@ -1,9 +1,9 @@
 import React from "react";
 
-function Button() {
+function Button({ onClick }) {
   return (
     <div>
-      <button>Generate Quote</button>
+      <button onClick={onClick}>Generate Quote</button>
     </div>
   );
 }
