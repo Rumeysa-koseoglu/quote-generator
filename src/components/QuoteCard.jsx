@@ -3,7 +3,7 @@ import React from "react";
 function QuoteCard({ quote, author }) {
   return (
     <div className="w-full flex justify-center">
-      <div className="flex flex-col items-center justify-center gap-10 text-[#e6dad0] bg-[#424c388a] rounded-[40px] mx-6 p-8 shadow-xl hover:shadow-2xl w-full md:max-w-[750px] sm:max-w-[550px] h-[340px] ">
+      <div className="flex flex-col items-center justify-center gap-10 text-[#e6dad0] bg-[#424c388a] rounded-[40px] mx-6 p-8 shadow-xl hover:shadow-2xl w-full md:max-w-[750px] sm:max-w-[550px] h-[380px] ">
         {quote ? (
           <>
             <p className="font-lucida text-[20px] my-8">'{quote}'</p>
