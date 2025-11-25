@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-6 bg-[url('/DABDA7B2-CF7F-42E7-8005-788C2A98A059.png')] bg-cover bg-no-repeat">
-      <QuoteCard quote={quote} author={author} />
+      <QuoteCard quote={quote} author={author} loading={loading} />
       <Button onClick={handleGenerate} loading={loading} />
     </div>
   );
